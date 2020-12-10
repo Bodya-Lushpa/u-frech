@@ -1,0 +1,755 @@
+@media screen and (min-width: 1170px) {
+  .header__menu-mob {
+    display: none; }
+  .header__personal-mob {
+    display: none; }
+  .choose-city_popup-body-mob {
+    display: none; } }
+
+@media screen and (max-height: 850px) and (min-width: 1170px) {
+  .delivery-info__content {
+    height: 700px; } }
+
+@media screen and (max-width: 1495px) {
+  .cart__checkout {
+    padding: 45px 0 75px;
+    max-width: 780px;
+    margin-right: 10px; }
+    .cart__checkout .cart__checkout-products,
+    .cart__checkout .cart__checkout-total {
+      padding: 0 30px; }
+  .cart__checkout-top {
+    padding-left: 30px;
+    padding-right: 30px; }
+  .main-page__recipes__content__item__info {
+    padding: 10px 20px 10px 30px; } }
+
+@media screen and (max-width: 1400px) {
+  .cart__checkout-total {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column; }
+    .cart__checkout-total .cart-warning {
+      margin-left: auto;
+      margin-bottom: 20px; }
+  .cart__data {
+    max-width: 510px;
+    width: 100% !important;
+    padding: 45px 30px 75px; }
+  .cart__data-personal .cart-input {
+    max-width: 215px; } }
+
+@media screen and (max-width: 1400px) {
+  .main-page__recipes__content__item__info {
+    max-width: unset;
+    width: 100%; }
+    .main-page__recipes__content__item__info h3, .main-page__recipes__content__item__info p {
+      max-width: 300px; } }
+
+@media screen and (max-width: 1320px) {
+  .cart__data-personal .cart-input {
+    max-width: 190px; }
+  .header__menu-nav li {
+    margin-right: 0; }
+  .header__menu-profile li:last-child {
+    margin-right: 10px; }
+  .header__menu-profile li a {
+    width: 50px; }
+  .main-page__interest__banner {
+    max-width: unset; } }
+
+@media screen and (max-width: 1280px) {
+  .main-page__first-screen__banners__small-banners {
+    display: none; }
+  .main-page__first-screen__banners__big-banner {
+    width: 100%; } }
+
+@media screen and (max-width: 1190px) {
+  .delivery-info__cost-block {
+    margin-right: 10px; } }
+
+@media screen and (max-width: 1170px) {
+  .cart {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center; }
+  .cart__checkout-progressbar-prompt {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: end;
+    -webkit-align-items: flex-end;
+    -ms-flex-align: end;
+    align-items: flex-end; }
+  .cart__checkout,
+  .cart__data {
+    max-width: 768px;
+    -webkit-align-self: unset;
+    -ms-flex-item-align: unset;
+    align-self: unset;
+    margin-right: 0;
+    margin-bottom: 35px; }
+  .cart__data {
+    max-height: unset; }
+    .cart__data .jspContainer {
+      max-height: unset !important;
+      min-height: 600px; }
+    .cart__data .jspVerticalBar {
+      display: none; }
+  .cart__data-personal .cart-input {
+    max-width: unset;
+    width: -webkit-calc((100%/2) - 20px);
+    width: calc((100%/2) - 20px); }
+  .cart__checkout-top {
+    position: static; }
+  .header__top-contacts {
+    display: none; }
+  .header__top-wrapper {
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center; }
+  .header__menu {
+    display: none; }
+  .footer__row {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center; }
+  .footer-phone-desc {
+    display: none; }
+  .footer__menu-wrap,
+  .footer__logo,
+  .footer__contacts {
+    margin: auto; }
+  .footer__payment {
+    margin-bottom: 10px;
+    -webkit-box-ordinal-group: 4;
+    -webkit-order: 3;
+    -ms-flex-order: 3;
+    order: 3; }
+  .footer__contacts {
+    -webkit-box-ordinal-group: 3;
+    -webkit-order: 2;
+    -ms-flex-order: 2;
+    order: 2;
+    margin-bottom: 15px; }
+  .footer-phone-mob {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex; }
+  .footer__menu-wrap {
+    margin-bottom: 35px; }
+  .notification-popup {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column; }
+    .notification-popup .notification-text p {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+      flex-direction: column; }
+      .notification-popup .notification-text p a {
+        margin-left: 0; }
+    .notification-popup #privacySubmit {
+      margin-top: 20px; }
+  .fill-data-mobile {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex; }
+  .cart__data-total {
+    -webkit-box-shadow: unset;
+    box-shadow: unset; }
+  .choose-city_popup-desk {
+    max-height: 95vh;
+    height: auto; }
+    .choose-city_popup-desk .choose-city_popup-head img {
+      width: 55px;
+      height: 55px; }
+    .choose-city_popup-desk .choose-city_popup-head h3 {
+      font-size: 18px; }
+    .choose-city_popup-desk .choose-city_popup-head p {
+      font-size: 12px; }
+    .choose-city_popup-desk .choose-city_popup-search {
+      display: none; }
+    .choose-city_popup-desk .choose-city_popup-body {
+      display: none; }
+    .choose-city_popup-desk .choose-city_popup-body-mob {
+      display: block;
+      margin-top: 30px;
+      height: 300px; }
+  .delivery-info {
+    overflow-y: auto; }
+  .delivery-info-body:after {
+    display: none; }
+  .delivery-info-body .delivery-info__title {
+    font-size: 18px; }
+  .delivery-info-body .delivery-info__subtitle {
+    font-size: 12px; }
+  .delivery-info__horizontal-content {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column; }
+  .numbered-list p {
+    font-size: 12px; }
+  .numbered-list__block-tip {
+    font-size: 10px; }
+  .delivery-info__cost {
+    margin-right: 0; }
+  .delivery-info__cost-blocks {
+    max-width: 735px;
+    margin: 40px auto; }
+  .delivery-info__cost-block {
+    margin-right: 0; }
+  .delivery-info__cost-block-part p {
+    font-size: 14px; }
+  .delivery-info__map {
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex; }
+    .delivery-info__map iframe {
+      width: 628px;
+      height: 244px; }
+  .delivery-info__content-block {
+    margin-bottom: 70px; }
+    .delivery-info__content-block h3 {
+      font-size: 18px; }
+    .delivery-info__content-block p {
+      font-size: 12px;
+      line-height: 30px; }
+  .delivery-info__content-block-list li {
+    font-size: 12px; }
+  .main-page {
+    padding-top: 220px; }
+  .main-page__first-screen__category {
+    display: none; }
+  .main-page__interest__banner__content .banner-description {
+    max-width: unset; }
+  .main-page__diets__item {
+    padding: 25px 35px; }
+  .main-page__season-offer__content {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column; }
+  .main-page__season-offer__products .product-card {
+    margin: auto; }
+    .main-page__season-offer__products .product-card:last-child {
+      margin-right: auto; }
+  .main-page__season-offer__content__banner {
+    margin-right: 0;
+    width: 100%;
+    margin-bottom: 20px;
+    max-width: unset; }
+  .main-page__about {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+    -webkit-flex-direction: column-reverse;
+    -ms-flex-direction: column-reverse;
+    flex-direction: column-reverse;
+    margin-bottom: 90px; } }
+
+@media screen and (max-width: 825px) {
+  .delivery-info__cost-block {
+    max-width: 200px; }
+  .delivery-info__cost {
+    max-width: 425px;
+    margin: auto; } }
+
+@media screen and (max-width: 768px) {
+  .delivery-info__content {
+    padding: 30px 20px;
+    max-height: unset; }
+  .jspVerticalBar {
+    visibility: hidden; }
+  .delivery-info-close {
+    top: 5px;
+    right: 5px; }
+  .cart-wrapper {
+    padding-top: 35px;
+    background: #f9f9f9; }
+  .cart {
+    margin-top: 0; }
+  .header__personal-mob .header-menu-counter {
+    font-size: 8px;
+    height: 9px;
+    min-width: 18px;
+    top: 4px; }
+  .header__personal-mob-point .point-icon {
+    width: 18px;
+    height: 18px; }
+  .cart__checkout-total .cart-warning {
+    margin-left: unset;
+    max-width: unset; }
+  .choose-city_popup-desk {
+    width: 280px;
+    padding: 20px; }
+  .delivery-info__shipping-time {
+    border-bottom: none;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: start;
+    -webkit-align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start; }
+  .header__top-nearest-delivery {
+    font-size: 12px; }
+  .delivery-info__map {
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex; }
+    .delivery-info__map iframe {
+      width: 275px;
+      height: 260px; }
+  .delivery-info-body {
+    top: 0;
+    -webkit-transform: translate(-50%, 0);
+    -ms-transform: translate(-50%, 0);
+    transform: translate(-50%, 0); }
+    .delivery-info-body .cart-warning {
+      margin: 40px auto !important; }
+  /* Payment page */
+  .payment-page__wrapper {
+    padding: 0;
+    -webkit-box-shadow: unset;
+    box-shadow: unset;
+    border: unset;
+    margin: 10px auto; }
+  .payment-page__wrapper-info-row span {
+    font-size: 12px; }
+  .payment-page__wrapper-info-row p {
+    font-size: 18px; }
+    .payment-page__wrapper-info-row p span {
+      font-size: 12px; }
+  .payment-page__card-heading h2 {
+    font-size: 18px; }
+  .payment-page__card-heading p {
+    font-size: 12px;
+    text-align: center; }
+  .payment-page__card-session p {
+    font-size: 12px; }
+  .payment-page__card-session .payment-page__card-session-timer {
+    font-size: 12px;
+    min-width: 54px;
+    height: 24px; }
+  .payment-page__card .cart-checkbox {
+    margin: auto; }
+  .payment-page__card-imitation {
+    padding: 10px 20px 5px; }
+    .payment-page__card-imitation input,
+    .payment-page__card-imitation select {
+      font-size: 12px; }
+  .payment-page__secure.cart-warning {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    padding: 20px 30px; }
+    .payment-page__secure.cart-warning p {
+      font-size: 14px; }
+    .payment-page__secure.cart-warning .icons {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+      -ms-flex-align: center;
+      align-items: center;
+      margin-top: 20px;
+      margin-right: auto; }
+  .payment-page__card-imitation-row {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column; }
+  .payment-systems {
+    margin-top: 10px;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    margin-left: auto;
+    padding: 4px 10px; }
+    .payment-systems img {
+      max-width: 40px; }
+  .payment-page .footer {
+    font-size: 12px; }
+  .payment-page__wrapper-error-heading p {
+    text-align: center;
+    font-size: 12px; }
+  .footer__menu {
+    max-height: 280px;
+    max-width: 380px;
+    -webkit-align-content: space-between;
+    -ms-flex-line-pack: justify;
+    align-content: space-between;
+    margin: auto; }
+  .footer__menu li {
+    max-width: 120px; }
+  .footer__menu li a {
+    font-size: 12px; }
+  .footer__down {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column; }
+  .footer__down .footer__copy {
+    -webkit-box-ordinal-group: 3;
+    -webkit-order: 2;
+    -ms-flex-order: 2;
+    order: 2; }
+  .footer__down .footer__privacy-links {
+    margin-top: 15px; }
+  .footer__down .footer__privacy-links li:after {
+    margin: 0 20px; }
+  .footer__down .footer__privacy-links li a {
+    font-size: 12px; }
+  .footer {
+    margin-top: 0; }
+  .footer-wrapper {
+    border: none; }
+  .footer__row:first-child {
+    border-top: 1px solid #E8E8E8;
+    border-bottom: 1px solid #E8E8E8; }
+  .product-card {
+    max-width: 134px; }
+    .product-card img {
+      max-width: 134px; }
+  .product-card__sale,
+  .product-card__supplier {
+    min-width: 40px;
+    height: 21px;
+    font-size: 12px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding: 0;
+    background-size: 100% 100%;
+    font-size: 10px; }
+  .product-card__supplier {
+    padding: 3px 8px 3px 3px;
+    top: 28px;
+    background-size: 100%; }
+  .product-card__name {
+    font-size: 12px; }
+  .product-card__price {
+    font-size: 18px; }
+  .product-card__price-currency, .product-card__price-sale-old {
+    font-size: 12px; }
+  .product-card__buttons .btn {
+    font-size: 12px;
+    height: 30px;
+    width: 81px; }
+  .product-card__favorite {
+    width: 30px;
+    height: 30px; }
+    .product-card__favorite svg {
+      width: 13px; }
+  .main-page__section__heading h2 {
+    font-size: 18px; }
+  .main-page__section__heading .carousel-arrows {
+    margin-left: 20px; }
+    .main-page__section__heading .carousel-arrows .button-prev,
+    .main-page__section__heading .carousel-arrows .button-next {
+      width: 30px;
+      height: 30px; }
+      .main-page__section__heading .carousel-arrows .button-prev svg,
+      .main-page__section__heading .carousel-arrows .button-next svg {
+        width: 100%;
+        height: 100%; }
+  .main-page__section__heading .section-description {
+    font-size: 12px; }
+  .main-page .container {
+    padding: 0 20px; }
+  .main-page__diets__item {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    padding: 0;
+    height: 115px;
+    padding: 15px 5px; }
+  .main-page__recipes__content__item {
+    height: auto; }
+  .main-page__recipes__content__item__preview {
+    width: 109px;
+    height: 109px; }
+  .main-page__recipes__content__item__info {
+    height: 109px;
+    padding: 10px 7px 10px 10px;
+    width: 100%; }
+    .main-page__recipes__content__item__info h3 {
+      font-size: 14px;
+      margin: 0 0 3px; }
+    .main-page__recipes__content__item__info p {
+      font-size: 12px;
+      margin: 0 0 3px; }
+    .main-page__recipes__content__item__info .recipe-stat__point {
+      font-size: 12px; }
+      .main-page__recipes__content__item__info .recipe-stat__point img {
+        width: 12px; }
+    .main-page__recipes__content__item__info .dotted {
+      font-size: 12px;
+      margin-top: 0; }
+  .main-page__about__content h2 {
+    font-size: 22px; }
+  .main-page__about__content p {
+    font-size: 12px; }
+  .main-page__about__content ul li {
+    font-size: 12px;
+    font-weight: 500; }
+  .main-page__interest__banner,
+  .main-page__season-offer__content__banner {
+    height: 200px;
+    padding: 30px 35px 15px 20px; }
+    .main-page__interest__banner .banner-heading,
+    .main-page__season-offer__content__banner .banner-heading {
+      font-size: 18px;
+      margin: 0; }
+    .main-page__interest__banner .banner-description,
+    .main-page__season-offer__content__banner .banner-description {
+      font-size: 12px;
+      margin: 10px 0; }
+    .main-page__interest__banner .btn,
+    .main-page__season-offer__content__banner .btn {
+      width: 111px;
+      height: 37px;
+      font-size: 12px;
+      margin: 0; }
+  .main-page__interest__carousel {
+    height: unset; }
+  .main-page__first-screen__banners__big-banner {
+    padding: 150px 0 20px;
+    text-align: center;
+    border: none;
+    background-size: 210px;
+    background-position: center 0;
+    min-height: 325px; }
+    .main-page__first-screen__banners__big-banner .banner-descriptor,
+    .main-page__first-screen__banners__big-banner .banner-description {
+      font-size: 12px; }
+    .main-page__first-screen__banners__big-banner .banner-heading {
+      font-size: 18px;
+      max-width: unset;
+      margin-top: 12px;
+      margin-bottom: 5px; }
+    .main-page__first-screen__banners__big-banner .btn {
+      margin: 25px auto 10px; }
+  .main-page__season-offer__heading .carousel-arrows {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex; }
+  .header__top-menu {
+    display: none; } }
+
+@media screen and (max-width: 525px) {
+  .container-unset-mob {
+    padding-left: unset;
+    padding-right: unset; }
+  .cart__data-pretotal {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column; }
+    .cart__data-pretotal .cart-warning {
+      max-width: unset;
+      margin-bottom: 20px; }
+  .flex-column-mob {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column; }
+  .cart__data-personal .flex-column-mob.cart__data-input-row .cart-input {
+    width: 100%;
+    margin-bottom: 20px; }
+    .cart__data-personal .flex-column-mob.cart__data-input-row .cart-input:last-child {
+      margin-bottom: 0; }
+  .mobile-menu {
+    height: -webkit-calc(100vh - 178px);
+    height: calc(100vh - 178px);
+    top: 178px; }
+  .paymentMethodIcon {
+    width: 30px; } 
+  .flex-column-mob .header__top-nearest-delivery:last-child {
+    display: none;
+  }
+  }
+
+@media screen and (max-width: 450px) {
+  .header__menu-logo img {
+    max-width: 110px; }
+  .header__personal-mob-point {
+    font-size: 10px; }
+  .subtitle {
+    font-size: 16px; }
+  .vertical-divide {
+    margin: 0 4px; }
+  .btn {
+    font-size: 14px; }
+  .cart__checkout-product .product-preview {
+    width: 58px;
+    height: 58px;
+    -webkit-align-self: center;
+    -ms-flex-item-align: center;
+    align-self: center;
+    margin-right: 5px; }
+  .cart__checkout-product .product-info {
+    min-height: 58px;
+    width: -webkit-calc(100% - 63px);
+    width: calc(100% - 63px); }
+    .cart__checkout-product .product-info h3 {
+      font-size: 12px;
+      max-width: 175px; }
+  .cart__checkout-product .count-block .count {
+    font-size: 18px; }
+  .cart__checkout-product .product-info .product-price {
+    font-size: 16px; }
+    .cart__checkout-product .product-info .product-price span {
+      font-size: 12px; }
+  .cart-warning {
+    padding: 5px 10px; }
+    .cart-warning img {
+      margin-right: 10px; }
+    .cart-warning p {
+      font-size: 10px;
+      line-height: 10px; }
+    .cart-warning a {
+      font-size: 10px;
+      margin-top: 0; }
+  .cart__data-personal .cart-input {
+    width: -webkit-calc((100%/2) - 10px);
+    width: calc((100%/2) - 10px); }
+    .cart__data-personal .cart-input input,
+    .cart__data-personal .cart-input textarea {
+      font-size: 12px;
+      line-height: 12px; }
+  .cart__data-promocode .cart-input input {
+    font-size: 12px; }
+  .cart__data-promocode a {
+    font-size: 12px; }
+  .cart__data-submit {
+    font-size: 12px;
+    padding: 10px;
+    min-width: 258px; }
+  .cart-checkbox span,
+  .cart-radio span {
+    font-size: 12px; }
+  .cart__data-total .cart-checkbox span {
+    font-size: 12px; }
+  .cart__checkout-progressbar-prompt a,
+  .cart__checkout-progressbar-prompt p {
+    font-size: 12px; }
+  .progressbar-info {
+    font-size: 12px; }
+  .cart__checkout-progressbar .progressbar-info span:last-child {
+    text-align: right; }
+  .cart__data-pretotal .total-payment {
+    font-size: 12px; }
+  .cart__data-total .total-payment span,
+  .cart__data-total .total-payment a,
+  .cart__checkout-total .total-payment span,
+  .cart__checkout-total .total-payment a {
+    font-size: 12px; }
+  .cart__data-total .total-payment .total-payment-price,
+  .cart__checkout-total .total-payment .total-payment-price {
+    font-size: 22px; }
+  .date-pick-time {
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between; }
+    .date-pick-time .time-item {
+      width: -webkit-calc((100% / 2) - 10px);
+      width: calc((100% / 2) - 10px);
+      margin-right: 0; }
+  .date-pick-body {
+    padding: 25px; }
+  .delivery-info__cost-block {
+    max-width: 135px;
+    font-size: 12px; }
+  .delivery-info__cost-blocks {
+    max-width: 300px; } }
+
+@media screen and (max-width: 425px) {
+  .notification-popup .notification-text p a {
+    font-size: 11px; } }
+
+@media screen and (max-width: 400px) {
+  .delivery-info__time-block-item .text,
+  .delivery-info__time-block-item .num {
+    font-size: 10px; } }
+
+@media screen and (max-width: 372px) {
+  .choose-city {
+    padding: 15px; }
+    .choose-city a.dotted,
+    .choose-city p {
+      font-size: 12px; }
+    .choose-city a.btn {
+      height: 24px;
+      font-size: 12px; }
+  .date-pick-calendar .flatpickr-calendar {
+    width: 100%; } }
+
+@media screen and (max-width: 450px) and (max-height: 850px) {
+  .date-pick-body {
+    top: 0;
+    -webkit-transform: translate(-50%, 0);
+    -ms-transform: translate(-50%, 0);
+    transform: translate(-50%, 0); } }
+
+@media screen and (max-width: 500px) and (max-height: 610px) {
+  .choose-city_popup-desk .choose-city_popup-body-mob {
+    height: 200px; } }

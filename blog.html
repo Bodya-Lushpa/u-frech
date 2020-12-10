@@ -1,0 +1,948 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/style.min.css" type="text/css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/style_mod.css" rel="stylesheet">
+    <link href="css/media.css" rel="stylesheet">
+</head>
+<body>
+
+<header class="header" id="header">
+    <div class="header__top">
+        <div class="container header__top-wrapper">
+            <div class="d-flex flex-column-mob">
+                <div class="d-flex header__top-nearest-delivery">
+                    Ближайшая доставка:
+                    <span id="nearDelivery" class="dotted blinking">
+								Сегодня с 20:00
+							</span>
+                </div>
+
+                <div class="d-flex header__top-nearest-delivery">
+                    Город:
+                    <span id="usersCity" class="dotted">
+								Москва							</span>
+                </div>
+            </div>
+
+
+            <ul class="d-flex ai-center header__top-menu">
+                <li><a class="header__top-menu-item" href="/catalog/?sort=PROPERTY_NEWPRODUCT&amp;order=desc">Новинки</a></li>
+
+                <li><a class="header__top-menu-item" href="/sale/">Акции</a></li>
+
+                <li><a class="header__top-menu-item" href="/delivery/">О доставке</a></li>
+
+                <li><a class="header__top-menu-item" href="/blog/">Блог</a></li>
+
+            </ul>
+            <div class="header__top-contacts">
+                <div class="header__top-contacts-socials">
+                    <a href="#">
+                        <img src="img/icons/instagram_icon.svg" alt="instagram">
+                    </a>
+
+                    <a href="#">
+                        <img src="img/icons/fb_icon.svg" alt="facebook">
+                    </a>
+
+                    <a href="#">
+                        <img src="img/icons/vk_icon.svg" alt="vkontakte">
+                    </a>
+
+                    <a href="#">
+                        <img src="img/icons/iconmonstr-telegram-1.svg" alt="telegram" style="width: 20px;height:20px;">
+                    </a>						</div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container">
+
+        <div class="header__catalog catalog-nav">
+            <div class="catalog-nav__menu">
+                <div class="catalog-nav__level active" data-level="0">
+                    <ul class="catalog-nav__routing">
+                        <li class="catalog-nav__link" data-to="1109">
+                            <a href="/catalog/nabory/">Наборы</a>
+                            <span class="catalog-nav__count">7</span>
+                        </li>
+                        <li class="catalog-nav__link" data-to="1032">
+                            <a href="/catalog/napitki/">Напитки</a>
+                            <span class="catalog-nav__count">140</span>
+                        </li>
+                        <li class="catalog-nav__link" data-to="1039">
+                            <a href="/catalog/khleb_torty_vypechka/">Хлеб, торты, выпечка</a>
+                            <span class="catalog-nav__count">161</span>
+                        </li>
+                        <li class="catalog-nav__link" data-to="1044">
+                            <a href="/catalog/ovoshchi_frukty_zelen_griby/">Овощи, фрукты, зелень, грибы</a>
+                            <span class="catalog-nav__count">311</span>
+                        </li>
+                        <li class="catalog-nav__link" data-to="1055">
+                            <a href="/catalog/moloko_syr_yaytsa/">Молоко, сыр, яйца</a>
+                            <span class="catalog-nav__count">109</span>
+                        </li>
+                        <li class="catalog-nav__link" data-to="1065">
+                            <a href="/catalog/myaso_ptitsa_kolbasy/">Мясо, птица, колбасы</a>
+                            <span class="catalog-nav__count">123</span>
+                        </li>
+                        <li class="catalog-nav__link" data-to="1073">
+                            <a href="/catalog/ryba_ikra_moreprodukty/">Рыба, икра, морепродукты</a>
+                            <span class="catalog-nav__count">77</span>
+                        </li>
+                        <li class="catalog-nav__link" data-to="1082">
+                            <a href="/catalog/bakaleya/">Бакалея</a>
+                            <span class="catalog-nav__count">279</span>
+                        </li>
+                        <li class="catalog-nav__link" data-to="1094">
+                            <a href="/catalog/zamorozhennye_produkty/">Замороженные продукты</a>
+                            <span class="catalog-nav__count">25</span>
+                        </li>
+                        <li class="catalog-nav__link" data-to="1100">
+                            <a href="/catalog/orekhi_sukhofrukty_sushyenye_sneki/">Орехи, сухофрукты, сушёные снэки</a>
+                            <span class="catalog-nav__count">60</span>
+                        </li>
+                        <li class="catalog-nav__link" data-to="1105">
+                            <a href="/catalog/dlya_doma_i_zhivotnykh/">Для дома и животных</a>
+                            <span class="catalog-nav__count">14</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="catalog-nav__level" data-level="1109">
+                    <div class="catalog-nav__back" data-to="0">Назад</div>
+                    <p class="catalog-nav__title">Наборы</p>
+                    <ul class="catalog-nav__routing">
+                        <li class="catalog-nav__link">
+                            <a href="/catalog/vygodnye_podpisnye_nabory/">Выгодные подписные наборы</a>
+                            <span class="catalog-nav__count">4</span>
+                        </li>
+                        <li class="catalog-nav__link">
+                            <a href="/catalog/obed/">Обед</a>
+                            <span class="catalog-nav__count">3</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="catalog-nav__level" data-level="1032">
+                    <div class="catalog-nav__back" data-to="0">Назад</div>
+                    <p class="catalog-nav__title">Напитки</p>
+                    <ul class="catalog-nav__routing">
+                        <li class="catalog-nav__link">
+                            <a href="/catalog/voda_bez_gaza/">Вода без газа</a>
+                            <span class="catalog-nav__count">14</span>
+                        </li>
+                        <li class="catalog-nav__link">
+                            <a href="/catalog/smuzi_nektary_naturalnye_soki/">Смузи, нектары, натуральные соки</a>
+                            <span class="catalog-nav__count">3</span>
+                        </li>
+                        <li class="catalog-nav__link">
+                            <a href="/catalog/voda_s_gazom/">Вода с газом</a>
+                            <span class="catalog-nav__count">10</span>
+                        </li>
+                        <li class="catalog-nav__link">
+                            <a href="/catalog/rastitelnoe_moloko_funktsionalnye_napitki/">Растительное молоко, функциональные напитки</a>
+                            <span class="catalog-nav__count">8</span>
+                        </li>
+                        <li class="catalog-nav__link">
+                            <a href="/catalog/kvas_kholodnyy_chay_kofe/">Квас, холодный чай, кофе</a>
+                            <span class="catalog-nav__count">6</span>
+                        </li>
+                        <li class="catalog-nav__link">
+                            <a href="/catalog/neobychnye_napitki/">Необычные напитки</a>
+                            <span class="catalog-nav__count">99</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="catalog-nav__level" data-level="1039">
+                    <div class="catalog-nav__back" data-to="0">Назад</div>
+                    <p class="catalog-nav__title">Хлеб, торты, выпечка</p>
+                    <ul class="catalog-nav__routing">
+                        <li class="catalog-nav__link">
+                            <a href="/catalog/poleznye_khlebtsy/">Полезные хлебцы</a>
+                            <span class="catalog-nav__count">8</span>
+                        </li>
+                        <li class="catalog-nav__link">
+                            <a href="/catalog/svezhaya_vypechka/">Свежая выпечка</a>
+                            <span class="catalog-nav__count">42</span>
+                        </li>
+                        <li class="catalog-nav__link">
+                            <a href="/catalog/svezhiy_khleb_lavash_lepyeshki_iz_tandyra/">Свежий хлеб, лаваш, лепёшки из тандыра</a>
+                            <span class="catalog-nav__count">65</span>
+                        </li>
+                        <li class="catalog-nav__link">
+                            <a href="/catalog/torty_deserty_ruchnoy_raboty/">Торты, десерты ручной работы</a>
+                            <span class="catalog-nav__count">18</span>
+                        </li>
+                        <li class="catalog-nav__link">
+                            <a href="/catalog/pechene_vafli/">Печенье, вафли</a>
+                            <span class="catalog-nav__count">13</span>
+                        </li>
+                        <li class="catalog-nav__link">
+                            <a href="/catalog/pastila_konfety_shokolad/">Пастила, конфеты, шоколад</a>
+                            <span class="catalog-nav__count">15</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="catalog-nav__level" data-level="1044">
+                    <div class="catalog-nav__back" data-to="0">Назад</div>
+                    <p class="catalog-nav__title">Овощи, фрукты, зелень, грибы</p>
+                    <ul class="catalog-nav__routing">
+                        <li class="catalog-nav__link">
+                            <a href="/catalog/svezhie_ovoshchi/">Свежие Овощи</a>
+                            <span class="catalog-nav__count">95</span>
+                        </li>
+                        <li class="catalog-nav__link">
+                            <a href="/catalog/svezhie_frukty/">Свежие Фрукты</a>
+                            <span class="catalog-nav__count">53</span>
+                        </li>
+                        <li class="catalog-nav__link">
+                            <a href="/catalog/svezhaya_zelen_i_salaty/">Свежая Зелень и салаты</a>
+                            <span class="catalog-nav__count">45</span>
+                        </li>
+                        <li class="catalog-nav__link">
+                            <a href="/catalog/svezhie_yagody/">Свежие Ягоды</a>
+                            <span class="catalog-nav__count">15</span>
+                        </li>
+                        <li class="catalog-nav__link">
+                            <a href="/catalog/svezhie_griby/">Свежие Грибы</a>
+                            <span class="catalog-nav__count">9</span>
+                        </li>
+                        <li class="catalog-nav__link">
+                            <a href="/catalog/ochishchennye_ovoshchi/">Очищенные Овощи</a>
+                            <span class="catalog-nav__count">4</span>
+                        </li>
+                        <li class="catalog-nav__link">
+                            <a href="/catalog/fresh_bar/">Фреш Бар</a>
+                            <span class="catalog-nav__count">14</span>
+                        </li>
+                        <li class="catalog-nav__link">
+                            <a href="/catalog/domashnie_solenya/">Домашние Соленья</a>
+                            <span class="catalog-nav__count">35</span>
+                        </li>
+                        <li class="catalog-nav__link">
+                            <a href="/catalog/olivki_i_vyalenye_tomaty/">Оливки и вяленые томаты</a>
+                            <span class="catalog-nav__count">14</span>
+                        </li>
+                        <li class="catalog-nav__link">
+                            <a href="/catalog/ekzoticheskie_frukty/">Экзотические фрукты</a>
+                            <span class="catalog-nav__count">27</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="catalog-nav__level" data-level="1055">
+                    <div class="catalog-nav__back" data-to="0">Назад</div>
+                    <p class="catalog-nav__title">Молоко, сыр, яйца</p>
+                    <ul class="catalog-nav__routing">
+                        <li class="catalog-nav__link">
+                            <a href="/catalog/moloko_slivki/">Молоко, сливки</a>
+                            <span class="catalog-nav__count">5</span>
+                        </li>
+                        <li class="catalog-nav__link">
+                            <a href="/catalog/syry/">Сыры</a>
+                            <span class="catalog-nav__count">55</span>
+                        </li>
+                        <li class="catalog-nav__link">
+                            <a href="/catalog/tvorog_syrki_tvorozhnaya_massa/">Творог, сырки, творожная масса</a>
+                            <span class="catalog-nav__count">15</span>
+                        </li>
+                        <li class="catalog-nav__link">
+                            <a href="/catalog/smetana/">Сметана</a>
+                            <span class="catalog-nav__count">2</span>
+                        </li>
+                        <li class="catalog-nav__link">
+                            <a href="/catalog/yogurty_sgushchenka_molochnye_kokteyli/">Йогурты, сгущенка, молочные коктейли</a>
+                            <span class="catalog-nav__count">10</span>
+                        </li>
+                        <li class="catalog-nav__link">
+                            <a href="/catalog/kefir_ryazhenka_kislomolochnye_produkty/">Кефир, ряженка, кисломолочные продукты</a>
+                            <span class="catalog-nav__count">6</span>
+                        </li>
+                        <li class="catalog-nav__link">
+                            <a href="/catalog/maslo_slivochnoe/">Масло сливочное</a>
+                            <span class="catalog-nav__count">4</span>
+                        </li>
+                        <li class="catalog-nav__link">
+                            <a href="/catalog/rastitelnye_molochnye_produkty/">Растительные молочные продукты</a>
+                            <span class="catalog-nav__count">3</span>
+                        </li>
+                        <li class="catalog-nav__link">
+                            <a href="/catalog/yaytso/">Яйцо</a>
+                            <span class="catalog-nav__count">9</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="catalog-nav__level" data-level="1065">
+                    <div class="catalog-nav__back" data-to="0">Назад</div>
+                    <p class="catalog-nav__title">Мясо, птица, колбасы</p>
+                    <ul class="catalog-nav__routing">
+                        <li class="catalog-nav__link">
+                            <a href="/catalog/kozlyatina/">Козлятина</a>
+                            <span class="catalog-nav__count">2</span>
+                        </li>
+                        <li class="catalog-nav__link">
+                            <a href="/catalog/govyadina/">Говядина</a>
+                            <span class="catalog-nav__count">17</span>
+                        </li>
+                        <li class="catalog-nav__link">
+                            <a href="/catalog/baranina/">Баранина</a>
+                            <span class="catalog-nav__count">10</span>
+                        </li>
+                        <li class="catalog-nav__link">
+                            <a href="/catalog/svinina/">Свинина</a>
+                            <span class="catalog-nav__count">9</span>
+                        </li>
+                        <li class="catalog-nav__link">
+                            <a href="/catalog/ptitsa_krolik/">Птица, кролик</a>
+                            <span class="catalog-nav__count">33</span>
+                        </li>
+                        <li class="catalog-nav__link">
+                            <a href="/catalog/myasnye_delikatesy/">Мясные деликатесы</a>
+                            <span class="catalog-nav__count">41</span>
+                        </li>
+                        <li class="catalog-nav__link">
+                            <a href="/catalog/telyatina/">Телятина</a>
+                            <span class="catalog-nav__count">7</span>
+                        </li>
+                        <li class="catalog-nav__link">
+                            <a href="/catalog/steyki_iz_mramornoy_govyadiny/">Стейки из мраморной говядины</a>
+                            <span class="catalog-nav__count">4</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="catalog-nav__level" data-level="1073">
+                    <div class="catalog-nav__back" data-to="0">Назад</div>
+                    <p class="catalog-nav__title">Рыба, икра, морепродукты</p>
+                    <ul class="catalog-nav__routing">
+                        <li class="catalog-nav__link">
+                            <a href="/catalog/svezhaya_ikra/">Свежая икра</a>
+                            <span class="catalog-nav__count">2</span>
+                        </li>
+                        <li class="catalog-nav__link">
+                            <a href="/catalog/okhlazhdennaya_ryba/">Охлажденная рыба</a>
+                            <span class="catalog-nav__count">36</span>
+                        </li>
+                        <li class="catalog-nav__link">
+                            <a href="/catalog/zamorozhennaya_ryba/">Замороженная рыба</a>
+                            <span class="catalog-nav__count">1</span>
+                        </li>
+                        <li class="catalog-nav__link">
+                            <a href="/catalog/kopchenaya_i_solyenaya_ryba/">Копченая и солёная рыба</a>
+                            <span class="catalog-nav__count">11</span>
+                        </li>
+                        <li class="catalog-nav__link">
+                            <a href="/catalog/krevetki_grebeshki_krabovoe_myaso/">Креветки, гребешки, крабовое мясо</a>
+                            <span class="catalog-nav__count">6</span>
+                        </li>
+                        <li class="catalog-nav__link">
+                            <a href="/catalog/moreprodukty/">Морепродукты</a>
+                            <span class="catalog-nav__count">6</span>
+                        </li>
+                        <li class="catalog-nav__link">
+                            <a href="/catalog/vyalenaya_sushenaya_ryba_i_moreprodukty/">Вяленая, сушеная рыба и морепродукты</a>
+                            <span class="catalog-nav__count">0</span>
+                        </li>
+                        <li class="catalog-nav__link">
+                            <a href="/catalog/zhivaya_ryba_i_moreprodukty/">Живая рыба и морепродукты</a>
+                            <span class="catalog-nav__count">15</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="catalog-nav__level" data-level="1082">
+                    <div class="catalog-nav__back" data-to="0">Назад</div>
+                    <p class="catalog-nav__title">Бакалея</p>
+                    <ul class="catalog-nav__routing">
+                        <li class="catalog-nav__link">
+                            <a href="/catalog/krupy_bobovye/">Крупы, бобовые</a>
+                            <span class="catalog-nav__count">24</span>
+                        </li>
+                        <li class="catalog-nav__link">
+                            <a href="/catalog/pasta_makaronnye_izdeliya/">Паста, макаронные изделия</a>
+                            <span class="catalog-nav__count">22</span>
+                        </li>
+                        <li class="catalog-nav__link">
+                            <a href="/catalog/muka_vsye_dlya_vypechki/">Мука, всё для выпечки</a>
+                            <span class="catalog-nav__count">21</span>
+                        </li>
+                        <li class="catalog-nav__link">
+                            <a href="/catalog/kasha_khlopya_sukhie_zavtraki/">Каша, хлопья, сухие завтраки</a>
+                            <span class="catalog-nav__count">13</span>
+                        </li>
+                        <li class="catalog-nav__link">
+                            <a href="/catalog/sakhar_sol_pripravy_spetsii/">Сахар, соль, приправы, специи</a>
+                            <span class="catalog-nav__count">77</span>
+                        </li>
+                        <li class="catalog-nav__link">
+                            <a href="/catalog/maslo_rastitelnoe/">Масло растительное</a>
+                            <span class="catalog-nav__count">10</span>
+                        </li>
+                        <li class="catalog-nav__link">
+                            <a href="/catalog/chay_kofe_kakao/">Чай, кофе, какао</a>
+                            <span class="catalog-nav__count">4</span>
+                        </li>
+                        <li class="catalog-nav__link">
+                            <a href="/catalog/konservy_varene_med/">Консервы, варенье, мед</a>
+                            <span class="catalog-nav__count">47</span>
+                        </li>
+                        <li class="catalog-nav__link">
+                            <a href="/catalog/chipsy_popkorn_sneki/">Чипсы, попкорн, снэки</a>
+                            <span class="catalog-nav__count">16</span>
+                        </li>
+                        <li class="catalog-nav__link">
+                            <a href="/catalog/ekzoticheskie_lakomstva/">Экзотические лакомства</a>
+                            <span class="catalog-nav__count">12</span>
+                        </li>
+                        <li class="catalog-nav__link">
+                            <a href="/catalog/sousy/">Соусы</a>
+                            <span class="catalog-nav__count">33</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="catalog-nav__level" data-level="1094">
+                    <div class="catalog-nav__back" data-to="0">Назад</div>
+                    <p class="catalog-nav__title">Замороженные продукты</p>
+                    <ul class="catalog-nav__routing">
+                        <li class="catalog-nav__link">
+                            <a href="/catalog/zamorozhennye_ovoshchi_frukty_i_yagody/">Замороженные овощи, фрукты и ягоды</a>
+                            <span class="catalog-nav__count">9</span>
+                        </li>
+                        <li class="catalog-nav__link">
+                            <a href="/catalog/morozhenoe/">Мороженое</a>
+                            <span class="catalog-nav__count">0</span>
+                        </li>
+                        <li class="catalog-nav__link">
+                            <a href="/catalog/pelmeni_vareniki_khinkali_manty/">Пельмени, вареники, хинкали, манты</a>
+                            <span class="catalog-nav__count">11</span>
+                        </li>
+                        <li class="catalog-nav__link">
+                            <a href="/catalog/zamorozhennye_torty_vypechka_testo/">Замороженные торты, выпечка, тесто</a>
+                            <span class="catalog-nav__count">4</span>
+                        </li>
+                        <li class="catalog-nav__link">
+                            <a href="/catalog/beyond_meat/">Beyond Meat</a>
+                            <span class="catalog-nav__count">1</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="catalog-nav__level" data-level="1100">
+                    <div class="catalog-nav__back" data-to="0">Назад</div>
+                    <p class="catalog-nav__title">Орехи, сухофрукты, сушёные снэки</p>
+                    <ul class="catalog-nav__routing">
+                        <li class="catalog-nav__link">
+                            <a href="/catalog/orekhi_i_sukhofrukty/">Орехи и сухофрукты</a>
+                            <span class="catalog-nav__count">37</span>
+                        </li>
+                        <li class="catalog-nav__link">
+                            <a href="/catalog/sukhofrukty_iz_armenii_i_gruzii/">Сухофрукты из Армении и Грузии</a>
+                            <span class="catalog-nav__count">9</span>
+                        </li>
+                        <li class="catalog-nav__link">
+                            <a href="/catalog/sushyennye_sneki/">Сушённые снэки</a>
+                            <span class="catalog-nav__count">3</span>
+                        </li>
+                        <li class="catalog-nav__link">
+                            <a href="/catalog/poleznyy_perekus/">Полезный перекус</a>
+                            <span class="catalog-nav__count">11</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="catalog-nav__level" data-level="1105">
+                    <div class="catalog-nav__back" data-to="0">Назад</div>
+                    <p class="catalog-nav__title">Для дома и животных</p>
+                    <ul class="catalog-nav__routing">
+                        <li class="catalog-nav__link">
+                            <a href="/catalog/dlya_kukhni/">Для кухни</a>
+                            <span class="catalog-nav__count">5</span>
+                        </li>
+                        <li class="catalog-nav__link">
+                            <a href="/catalog/dlya_vanny/">Для ванны</a>
+                            <span class="catalog-nav__count">8</span>
+                        </li>
+                        <li class="catalog-nav__link">
+                            <a href="/catalog/dlya_stirki/">Для стирки</a>
+                            <span class="catalog-nav__count">1</span>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+            <div class="vertical-hr"></div>
+            <div class="catalog-nav__discount catalog-discount" data-product="19309">
+                <img class="catalog-discount__img" src="/upload/resize_cache/iblock/ac8/240_200_1/ac86437d1e18ae337cefb1f737914f80.jpg">
+                <p class="catalog-discount__title">
+                    <a href="/catalog/telyatina/farsh_iz_myakoti_fermerskoy_telyatiny_0_5_kg/">Фарш из мякоти фермерской телятины ~ 0.5 кг.</a>
+                </p>
+                <div class="catalog-discount__price">
+                    <div class="current-price new-price">112<span>₽</span></div>
+                </div>
+                <div class="productCard__controls">
+                    <button class="favorites-btn "></button>
+                    <button class="btn btn-middle btn-middle-dark add-to-basket">Купить</button>
+
+                    <div class="countBox">
+                        <button type="button" data-minus="">-</button>
+                        <div class="countBox__counter">
+					<span class="countBox__value" data-quntity="1" data-ration="0.5">
+						0.5					</span>
+                            <span class="countBox__measure">кг.</span>
+                        </div>
+                        <button type="button" data-plus="">+</button>
+                        <div class="countBox__info">
+                            <span>На&nbsp;сумму:&nbsp;</span>
+                            <div class="countBox__price">
+						<span class="current-price" data-price="112">
+							<span class="current-price__value">112</span>
+							<span>₽</span>
+						</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header__menu">
+            <a href="/" class="header__menu-logo">
+                <img src="img/logo.svg" alt="">
+            </a>
+
+            <a href="/catalog/" class="header__menu-catalog">
+                <svg width="21" height="12" viewBox="0 0 21 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect width="21" height="2" fill="#141414"></rect>
+                    <rect y="5" width="21" height="2" fill="#141414"></rect>
+                    <rect y="10" width="21" height="2" fill="#141414"></rect>
+                </svg>
+                Каталог
+            </a>
+
+
+            <form class="d-flex ai-center search-box" id="searchRowMain" action="/search/index.php">
+                <input id="title-search-input" type="text" name="q" value="" autocomplete="off" placeholder="Поиск товаров">
+                <button type="submit">
+                    <img src="img/icons/search_icon.svg" alt="search">
+                </button>
+                <div id="title-search" class="bx-searchtitle"></div>
+            </form>
+
+            <script>
+                BX.ready(function() {
+                    new JCTitleSearch({
+                        'AJAX_PAGE': '/',
+                        'CONTAINER_ID': 'title-search',
+                        'INPUT_ID': 'title-search-input',
+                        'MIN_QUERY_LEN': 2
+                    });
+                });
+            </script>
+            <div class="header__callback" data-open="#callback">
+                <img class="header__callback-icon" src="img/phone.svg">
+                <div class="header__callback-wrapper">
+                    <a href="tel:+74951286399" class="header__callback-link">+7 (495) 128-63-99</a>
+                    <span class="header__callback-button dotted">Обратный звонок</span>
+                </div>
+            </div>
+
+            <ul class="header__menu-profile">
+                <li>
+                    <a href="#" class="header-menu-point">
+                        <img src="img/icons/favorites_icon.svg" alt="favorites">
+                        <div id="wishcount">
+                        </div>
+                    </a>
+                </li>
+
+                <li class="showCartHint">
+                    <a href="/personal/cart/" class="header-menu-point">
+                        <img src="img/icons/cart_icon.svg" alt="cart">
+                        <div id="basket-count"></div>
+                    </a>
+
+                    <div class="cart-hint"></div>
+                </li>
+
+                <li>
+                    <a href="/personal/" class="header-menu-point">
+                        <img src="img/icons/user_icon.svg" alt="user">
+                    </a>
+                </li>
+            </ul>
+
+        </div>
+
+        <div class="d-flex jc-between ai-center header__menu-mob">
+            <a href="#" class="menu-btn">
+                <span></span>
+            </a>
+
+            <a href="/" class="header__menu-logo">
+                <img src="img/logo.svg" alt="">
+            </a>
+
+            <a href="#" class="header-menu-point header__menu-search">
+                <img src="img/icons/search_icon.svg" alt="search">
+            </a>
+
+
+
+            <form class="d-flex ai-center search-box" id="searchRow" action="/search/index.php">
+                <input id="title-search-input_phone" type="text" name="q" value="" autocomplete="off" placeholder="Поиск товаров">
+                <div class="close-search" id="close-search"></div>
+                <button type="submit">
+                    <img src="img/icons/search_icon.svg" alt="search">
+                </button>
+                <div id="title-search_phone" class="bx-searchtitle"></div>
+            </form>
+
+            <script>
+                BX.ready(function() {
+                    new JCTitleSearch({
+                        'AJAX_PAGE': '/',
+                        'CONTAINER_ID': 'title-search_phone',
+                        'INPUT_ID': 'title-search-input_phone',
+                        'MIN_QUERY_LEN': 2
+                    });
+                });
+            </script>
+        </div>
+    </div>
+
+    <div class="header__personal-mob">
+        <div class="container d-flex jc-between">
+            <a href="/catalog/" class="d-flex flex-column ai-center header__personal-mob-point open-catalog">
+                <div class="d-flex ai-center jc-center point-icon">
+                    <img src="img/icons/cat_icon.svg" alt="category">
+                </div>
+                Каталог
+            </a>
+
+            <a href="/favorites/" class="d-flex flex-column ai-center header__personal-mob-point">
+                <div class="d-flex ai-center jc-center point-icon">
+                    <img src="img/icons/favorites_icon.svg" alt="favorite">
+                    <div id="wishcount-phone">
+                    </div>
+                </div>
+                Избранное
+            </a>
+
+            <a href="/personal/cart/" class="d-flex flex-column ai-center header__personal-mob-point">
+                <div class="d-flex ai-center jc-center point-icon">
+                    <img src="img/icons/cart_icon.svg" alt="category">
+                    <div id="basket-count-phone"></div>
+                </div>
+                Корзина
+            </a>
+
+            <a href="/personal/" class="d-flex flex-column ai-center header__personal-mob-point">
+                <div class="d-flex ai-center jc-center point-icon">
+                    <img src="img/icons/user_icon.svg" alt="category">
+                </div>
+                Кабинет
+            </a>
+        </div>
+    </div>
+</header>
+
+<div class="main-page">
+    <div class="container">
+        <div class="dflex breadcrumb btop-frame" style="background-color: #fff;">
+            <link href="http://u-fresh.ru/bitrix/css/main/font-awesome.css?160450108628777" type="text/css" rel="stylesheet">
+            <div class="bx-breadcrumb" itemprop="http://schema.org/breadcrumb" itemscope=""
+                 itemtype="http://schema.org/BreadcrumbList">
+                <div class="bx-breadcrumb-item" id="bx_breadcrumb_0" itemprop="itemListElement" itemscope=""
+                     itemtype="http://schema.org/ListItem">
+
+                    <a href="/" title="Главная страница" itemprop="item">
+                        <span itemprop="name">Главная страница</span>
+                    </a>
+                    <meta itemprop="position" content="1">
+                </div>
+                <div class="bx-breadcrumb-item" id="bx_breadcrumb_1" itemprop="itemListElement" itemscope=""
+                     itemtype="http://schema.org/ListItem">
+                    <i class="fa fa-angle-right"></i>
+                    <a href="/catalog/" title="Каталог" itemprop="item">
+                        <span itemprop="name">Каталог</span>
+                    </a>
+                    <meta itemprop="position" content="2">
+                </div>
+                <div class="bx-breadcrumb-item" id="bx_breadcrumb_2" itemprop="itemListElement" itemscope=""
+                     itemtype="http://schema.org/ListItem">
+                    <i class="fa fa-angle-right"></i>
+                    <a href="/catalog/ryba_ikra_moreprodukty/" title="Рыба, икра, морепродукты" itemprop="item">
+                        <span itemprop="name">Рыба, икра, морепродукты</span>
+                    </a>
+                    <meta itemprop="position" content="3">
+                </div>
+                <div class="bx-breadcrumb-item" id="bx_breadcrumb_3" itemprop="itemListElement" itemscope=""
+                     itemtype="http://schema.org/ListItem">
+                    <i class="fa fa-angle-right"></i>
+                    <a href="/catalog/moreprodukty/" title="Морепродукты" itemprop="item">
+                        <span itemprop="name">Морепродукты</span>
+                    </a>
+                    <meta itemprop="position" content="4">
+                </div>
+                <div class="bx-breadcrumb-item">
+                    <i class="fa fa-angle-right"></i>
+                    <span>Печень трески натуральная ~ 280 гр.</span>
+                </div>
+                <div style="clear:both"></div>
+            </div>
+        </div>
+        <h4 class="title_blog_page">Блог</h4>
+        <p class="title_desc_page">
+            Вам может быть интересным...
+        </p>
+
+        <section class="main-page__first-screen ul_menu_blog_wrapper">
+
+            <ul class="d-flex flex-column category-list main-page__first-screen__category ul_menu_blog">
+                <li>
+                    <a href="#">
+                        <span>Показать все</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span>Новости</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span>Рецепты</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span>СМИ о нас</span>
+                    </a>
+                </li>
+                <li class="ul_menu_blog_li_active">
+                    <a href="#">
+                        <span>Полезное</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span>Образ жизни</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span>Интерес</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span>Мастер-классы</span>
+                    </a>
+                </li>
+            </ul>
+
+            <div class="blog_list_wrapper">
+                <div class="form_search_blog">
+                    <input type="text" name="" placeholder="Здесь может быть ваш запрос...">
+                    <span class="form_search_blog_close"><img src="img/close_icon.svg" alt=""></span>
+                    <button><img src="img/search_icon.svg" alt=""></button>
+                </div>
+                <div class="blog_list">
+                    <div class="blog_list_item blog_list_item_big" style="background: url('img/blog_item1.jpg') center top no-repeat;">
+                        <h5>Заголовок статьи</h5>
+                        <p>С другой стороны консультация с широким активом обеспечивает широкому кругу (специалистов) участие в формировании новых предложений. Товарищи! сложившаяся структура организации позволяет оценить значение систем...</p>
+                    </div>
+                    <div class="blog_list_item" style="background: url('img/blog_item2.jpg') center top no-repeat;">
+                        <h5>Заголовок статьи</h5>
+                        <p>С другой стороны консультация с широким активом обеспечивает широкому кругу (специалистов) участи...</p>
+                    </div>
+                    <div class="blog_list_item" style="background: url('img/blog_item3.jpg') center top no-repeat;">
+                        <h5>Заголовок статьи</h5>
+                        <p>С другой стороны консультация с широким активом обеспечивает широкому кругу (специалистов) участи...</p>
+                    </div>
+                    <div class="blog_list_item" style="background: url('img/blog_item4.jpg') center top no-repeat;">
+                        <h5>Заголовок статьи</h5>
+                        <p>С другой стороны консультация с широким активом обеспечивает широкому кругу (специалистов) участи...</p>
+                    </div>
+                    <div class="blog_list_item" style="background: url('img/blog_item1.jpg') center top no-repeat;">
+                        <h5>Заголовок статьи</h5>
+                        <p>С другой стороны консультация с широким активом обеспечивает широкому кругу (специалистов) участи...</p>
+                    </div>
+                    <div class="blog_list_item" style="background: url('img/blog_item1.jpg') center top no-repeat;">
+                        <h5>Заголовок статьи</h5>
+                        <p>С другой стороны консультация с широким активом обеспечивает широкому кругу (специалистов) участи...</p>
+                    </div>
+                    <div class="blog_list_item blog_list_item_big" style="background: url('img/blog_item4.jpg') center top no-repeat;">
+                        <h5>Заголовок статьи</h5>
+                        <p>С другой стороны консультация с широким активом обеспечивает широкому кругу (специалистов) участи...</p>
+                    </div>
+                    <div class="blog_list_item blog_list_item_big" style="background: url('img/blog_item1.jpg') center top no-repeat;">
+                        <h5>Заголовок статьи</h5>
+                        <p>С другой стороны консультация с широким активом обеспечивает широкому кругу (специалистов) участие в формировании новых предложений. Товарищи! сложившаяся структура организации позволяет оценить значение систем...</p>
+                    </div>
+                    <div class="blog_list_item" style="background: url('img/blog_item2.jpg') center top no-repeat;">
+                        <h5>Заголовок статьи</h5>
+                        <p>С другой стороны консультация с широким активом обеспечивает широкому кругу (специалистов) участи...</p>
+                    </div>
+                    <div class="blog_list_item" style="background: url('img/blog_item1.jpg') center top no-repeat;">
+                        <h5>Заголовок статьи</h5>
+                        <p>С другой стороны консультация с широким активом обеспечивает широкому кругу (специалистов) участи...</p>
+                    </div>
+                    <div class="blog_list_item blog_list_item_big" style="background: url('img/blog_item4.jpg') center top no-repeat;">
+                        <h5>Заголовок статьи</h5>
+                        <p>С другой стороны консультация с широким активом обеспечивает широкому кругу (специалистов) участи...</p>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+    </div>
+</div>
+
+<footer class="footer" id="footer">
+    <div class="container footer-wrapper">
+        <div class="footer__row">
+            <a href="/" class="footer__logo">
+                <img src="img/logo.svg" alt="logo">
+            </a>
+
+            <div class="footer__contacts">
+                <a href="tel:+74951286399" class="fw-300 footer-phone-desc">
+                    <img src="img/icons/phone_icon.svg" alt="phone">
+                    + 7 (495) 128 63 99
+                </a>
+
+                <div class="d-flex ai-center footer__contacts-socials">
+                    <a href="#">
+                        <img src="img/icons/instagram_icon-black.svg" alt="instagram">
+                    </a>
+                    <a href="#">
+                        <img src="img/icons/fb_icon-black.svg" alt="facebook">
+                    </a>
+                    <a href="#">
+                        <img src="img/icons/vk_icon-black.svg" alt="vk">
+                    </a>
+                    <a href="#">
+                        <img src="img/icons/yandex_dzen_icon.svg" alt="dzen">
+                    </a>
+                    <a href="#">
+                        <img src="img/icons/youtube_icon.svg" alt="youtube">
+                    </a>                </div>
+            </div>
+        </div>
+
+        <div class="jc-between footer__row">
+            <div class="footer__menu-wrap">
+
+
+                <ul class="footer__menu">
+                    <li><a href="/contacts/">Контакты</a></li>
+
+                    <li><a href="/about/">О проекте</a></li>
+
+                    <li><a href="/delivery/">Доставка и оплата</a></li>
+
+                    <li><a href="/guaranty/">Как вернуть или обменять</a></li>
+
+                    <li><a href="/rekvizits/">Реквизиты</a></li>
+
+                    <li><a href="/postavshchiki/">Поставщики</a></li>
+
+                    <li><a href="/podarochnye-karty/">Подарочные карты</a></li>
+
+                </ul>
+            </div>
+
+            <a href="tel:+74951286399" class="ai-center jc-center footer-phone-mob">
+                <img src="img/icons/phone_icon.svg" alt="phone">
+                + 7 (495) 128 63 99
+            </a>
+
+            <div class="d-flex ai-center footer__contacts-socials footer__contacts-socials-mob">
+                <a href="#">
+                    <img src="img/icons/instagram_icon-black.svg" alt="instagram">
+                </a>
+                <a href="#">
+                    <img src="img/icons/fb_icon-black.svg" alt="facebook">
+                </a>
+                <a href="#">
+                    <img src="img/icons/vk_icon-black.svg" alt="vk">
+                </a>
+                <a href="#">
+                    <img src="img/icons/yandex_dzen_icon.svg" alt="dzen">
+                </a>
+                <a href="#">
+                    <img src="img/icons/youtube_icon.svg" alt="youtube">
+                </a>            </div>
+
+            <div class="footer__payment">
+                <p>
+                    Мы принимаем:
+                </p>
+
+                <div class="footer__payment__item">
+                    <img src="img/icons/apple-black.svg" alt="">
+                </div>
+
+                <div class="footer__payment__item">
+                    <img src="img/icons/gpay.svg" alt="">
+                </div>
+
+                <div class="footer__payment__item">
+                    <img src="img/icons/samsung-black.svg" alt="">
+                </div>
+
+                <div class="footer__payment__item">
+                    <img src="img/icons/visa-black.svg" alt="">
+                </div>
+
+                <div class="footer__payment__item">
+                    <img src="img/icons/mc-black.svg" alt="">
+                </div>
+
+                <div class="footer__payment__item">
+                    <img src="img/icons/mir-black.svg" alt="">
+                </div>
+            </div>
+
+
+            <div class="footer__ask">
+                <h5>
+                    Остались вопросы?
+                </h5>
+
+                <p>
+                    Задайте их нам прямо сейчас
+                </p>
+
+                <a href="#" class="fw-300 btn footer__question">
+                    Задать вопрос
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="d-flex jc-between ai-center container footer__down">
+        <p class="footer__copy fw-300 color-gray">
+            © U-FRESH 2014-2020        </p>
+
+        <ul class="footer__privacy-links">
+            <li>
+                <a href="/oferta/" class="fw-300">
+                    Договор-оферты
+                </a>
+            </li>
+
+            <li>
+                <a href="/policy/" class="fw-300">
+                    Политика обработки персональных данных
+                </a>
+            </li>
+        </ul>
+    </div>
+</footer>
+
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
